@@ -205,6 +205,11 @@ transition: 0.4s ease;
     padding-bottom: 10px;
     text-align: center;
 }
+.img2{
+    margin-left: 3px;
+    height: 549px;
+    width: 1335px;
+}
  @media screen and (max-width: 1200px) {
     /* For mobile phones: */
     .navbar{
@@ -241,8 +246,8 @@ transition: 0.4s ease;
     top: 44px;
    }
    .content .cn{
-width: 13%;
-height: 3.5vw;
+width: 100px;
+height: 40px;
 font:size 1.8vw;
    }
   }
@@ -253,13 +258,12 @@ font:size 1.8vw;
          padding: 20px;
     }
     .form{
-        margin-left: -30px;
+        margin-left: -338px;
         width: 250px;
         height: 380px;
         background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
         position: absolute;
-        top: 44px;
-        left: 50px;
+        top: -559px;
         border-radius: 10px;
         padding:18px;
     }
