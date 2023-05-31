@@ -52,12 +52,19 @@ ul li a{
 }
 ul li a:hover{
     color: #ff7200;
+    font-size: 20px;
 
 }
 .search{
     width: 330px;
     float: left;
     margin-left: 270px;
+}
+.darood{
+   margin-left: 220px;
+   margin-top: 55px;
+   color: #fff ;
+   animation: alternate-reverse;
 }
 .srch{
     font-family: 'Times New Roman';
@@ -85,6 +92,7 @@ ul li a:hover{
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-left: -12px;
+    cursor: pointer;
 }
 .btn:focus{
     outline: none;
@@ -123,9 +131,13 @@ color: black;
 transition: .3s ease;
 }
 .content  span{
-     color: #ff7200; 
+     /* color: #ff7200;  */
+     border-radius: 20px;
+     color: black;
     font-size: 60px;
     margin-left:244px;
+    background: rgb(39,214,15);
+    background: linear-gradient(0deg, rgba(39,214,15,1) 0%, rgba(228,240,29,1) 100%);
 
 }
 .form{
@@ -256,6 +268,7 @@ font:size 1.8vw;
     .main{
         height: 180vh;
          padding: 20px;
+         margin-left: 100px;
     }
     .form{
         margin-left: -338px;
